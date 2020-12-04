@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="resources/styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Jumbolife Limited</title>
+    <meta name="description" content="Jumbolife Limited">
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="w3-top">
+        <div class="w3-bar" id="myNavbar">
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="#home" class="w3-bar-item w3-button">HOME</a>
+            <a href="#about" class="w3-bar-item w3-button w3-hide-small">ABOUT</a>
+            <a href="#advantage" class="w3-bar-item w3-button w3-hide-small">ADVANTAGE</a>
+            <a href="#universal" class="w3-bar-item w3-button w3-hide-small">UNIVERSAL LIFE</a>
+            <a href="#premium" class="w3-bar-item w3-button w3-hide-small">PREMIUM FINANCE</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-hide-small">CONTACT US</a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right">中文</a>
+        </div>
+
+        <!-- navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+            <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+            <a href="#advantage" class="w3-bar-item w3-button" onclick="toggleFunction()">ADVANTAGE</a>
+            <a href="#universal" class="w3-bar-item w3-button" onclick="toggleFunction()">UNIVERSAL LIFE</a>
+            <a href="#premium" class="w3-bar-item w3-button" onclick="toggleFunction()">PREMIUM FINANCE</a>
+            <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT US</a>
+            <a href="#" class="w3-bar-item w3-button">中文</a>
+        </div>
+    </div>
+
+    <!-- home -->
+    <div class="home w3-display-container w3-opacity-min" id="home">
+        <div class="w3-display-middle" style="white-space:nowrap;">
+            <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Jumbolife Limited</span>
+        </div>
+    </div>
+
+    <!-- about -->
+    <div class="w3-content w3-container w3-padding-64" id="about">
+        <h3 class="w3-center">ABOUT JUMBOLIFE</h3>
+        <p>Welcome to Jumbolife Ltd., your most dynamic provider of wealth planning and transfer solutions in the Asia Pacific. Our founder has over 20 years of experience in assisting high net worth individuals discover the most effective solutions to secure their financial future for them and their families.</p>
+        <p>We are committed to meet the financial services demand in the Asia Pacific market, especially the needs of high net worth individuals who seek large insurance coverage from good, strong and leading insurance companies. We provide financial services such as estate planning, wealth accumulation and wealth transfer. We focus on the needs of our clients.</p>
+        <div class="w3-row">
+            <div class="w3-col m6 w3-center w3-padding-large">
+                <img src="resources/about.jpg" class="w3-image" width="500">
+            </div>
+
+            <!-- Hide this text on small devices -->
+            <div class="w3-col m6 w3-hide-small w3-padding-large">
+                <p>We have over 15 years banking and insurance experience. We provide international life insurance policies with first-class, personalized and tailor-made insurance services, customer portfolio analysis, estate-planning and off-shore trust services to customers in the Asia market.</p>
+                <p>We provide the one-stop comprehensive insurance services to our clients and also facilitate the best offer over the world with least effort.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-center w3-dark-grey w3-padding-16">
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">15+</span><br>
+            Years of Experience
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">55+</span><br>
+            Projects Done
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">89+</span><br>
+            Happy Clients
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">150+</span><br>
+            Meetings
+        </div>
+    </div>
+
+    <!-- advantage banner -->
+    <div class="advantage w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-black w3-wide">ADVANTAGE</span>
+        </div>
+    </div>
+
+    <!-- advantage -->
+    <div class="w3-content w3-container w3-padding-64" id="advantage">
+        <h3 class="w3-center">OUR SERVICES</h3>
+        <h4>What We Stand For</h4>
+        <p>We understand what matters most to our clients. We will work with you to identify the best ways to fulfill your aspirations for the future by finding the right strategies to pursue your wealth transfer objectives.</p>
+        <p>Life insurance can provide beneficiaries with the funds they need and can perpetuate wealth.</p>
+        <p>Life insurance is Life insurance proceeds can be used for many different purposes, including:</p>
+    </div>
+
+    <!-- contact banner -->
+    <div class="contact w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-black w3-wide">CONTACT US</span>
+        </div>
+    </div>
+
+    <!-- contact -->
+    <div class="w3-content w3-container w3-padding-64" id="contact">
+        <h3 class="w3-center">FIND US AT</h3>
+
+        <div class="w3-row w3-padding-32 w3-section">
+            <div class="w3-col m4 w3-container">
+                <img src="resources/wingon.jpg" class="w3-image" style="width:100%">
+            </div>
+            <div class="w3-col m8 w3-panel">
+                <div class="w3-large w3-margin-bottom">
+                    <i class="fa fa-map-marker fa-fw w3-xlarge w3-margin-right"></i>Room 2410, 24/F, Wing On Centre,<br>
+                    <i class="fa fa-map-marker fa-fw w3-xlarge w3-text-white w3-margin-right"></i>111 Connaught Road Central, Sheung Wan, Hong Kong<br>
+                    <i class="fa fa-phone fa-fw w3-xlarge w3-margin-right"></i>+852 2841 8819<br>
+                    <i class="fa fa-envelope fa-fw w3-xlarge w3-margin-right"></i><a href="mailto:general@jumbolife.hk">general@jumbolife.hk</a><br>
+                </div>
+                <p>Send us a message here:</p>
+                <form>
+                    <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                        <div class="w3-half">
+                            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                        </div>
+                        <div class="w3-half">
+                            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+                        </div>
+                    </div>
+                    <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+                    <button class="w3-button w3-black w3-right w3-section" type="submit">
+                        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="w3-center w3-black w3-padding-16">
+        <p>Copyright 2020 &#x24B8; Jumbolife Limited. All rights reserved.</p>
+    </footer>
+     
+    <script>
+    // Change style of navbar on scroll
+    window.onscroll = function() {myFunction()};
+    function myFunction() {
+        var navbar = document.getElementById("myNavbar");
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+        } else {
+            navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+        }
+    }
+
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function toggleFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+    </script>
+</body>
+</html>
