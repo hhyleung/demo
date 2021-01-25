@@ -1,0 +1,94 @@
+body {color: rgb(94, 94, 94);}
+h1, h2, h3, h5 {color: rgb(29, 103, 221);}
+a {text-decoration: none;}
+
+.line {display: block;}
+.br {display: inline}
+.online, .offline, .tablet {width: 80%;}
+.arrows {width: 10%;}
+.grocery, .dotted {display: none;}
+.grocery-mobile {
+	display: inline-block;
+	width: 90%;
+}
+.brand-mobile {
+	display: inline-block;
+	width: 80%;
+}
+.tickets, .catering, .drinks {width: 90%}
+
+@media screen and (min-width: 860px) {
+	.line {display: inline;}
+	.br {display: none;}
+	.online {width: 30%;}
+	.arrows {width: 5%;}
+	.grocery {
+		display: inline-block;
+		width: 90%
+	}
+	.grocery-mobile, .brand-mobile {display: none;}
+	.offline {width: 34%;}
+	.tablet {width: 18%;}
+	.tickets {width: 40%;}
+	.dotted {
+		display: inline-block;
+		width: 2.5%;
+	}
+	.catering {width: 47%;}
+	.drinks {width: 35%;}
+}
+
+.close {
+	cursor: pointer;
+	position: absolute;
+	top: 15px;
+	right: 15px;
+}
+
+.input {
+	background-color: rgb(228, 228, 228);
+	padding: 8px;
+	border: none;
+	border-radius: 8px;
+	width: 100%;
+}
+
+.submit {
+	background-color: white;
+	color: rgb(29, 103, 221);
+	padding: 8px;
+	border: 1px;
+	border-style: solid;
+	border-radius: 8px;
+	border-color: rgb(29, 103, 221);
+	width: 100px;
+}
+
+.submit:hover {
+	background-color: rgb(29, 103, 221);
+	color: white;
+}
+
+.lightbox {
+	z-index: 3;
+	display: none;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.lightbox-content {
+	margin: auto;
+	background-color: white;
+	position: relative;
+	padding: 0;
+	outline: 0;
+	width: 90%;
+	max-width: 1200px;
+}

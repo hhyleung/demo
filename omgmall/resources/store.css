@@ -1,0 +1,177 @@
+body, h1, h2, h3, h4, h4, h5, h6 {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300;
+}
+
+h3 {color: white;}
+h4, h5 {color: rgb(29, 103, 221);}
+h6, p {color: black;}
+a {text-decoration: none;}
+hr {
+	border-color: rgb(110, 110, 110);
+	margin-top: 0;
+	margin-bottom: 3px;
+}
+
+input {
+	border: 0;
+	text-align: center;
+}
+
+.mySlides {display:none}
+
+.cs {
+	position: fixed;
+	top: 80%;
+	left: 0;
+	z-index: 2;
+	cursor: pointer;
+	background-color: rgb(29, 103, 221);
+	color: white;
+	border-radius: 8px;
+	transform: rotate(270deg);
+	transform-origin: left top 0;
+	text-align: center;
+	width: 120px;
+	padding: 5px;
+}
+
+.message {
+	display: none;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 3;
+	background-color: white;
+	width: 300px;
+	height: 400px;
+}
+
+.message-input {
+	position: absolute;
+	bottom: 10px;
+	border-top: 1px solid;
+	border-color: rgb(205, 205, 205);
+	width: 100%;
+	padding: 10px;
+}
+
+.blue {background-color: rgb(29, 103, 221);}
+.blue-text {color: rgb(29, 103, 221);}
+.grey {color: rgb(110, 110, 110);}
+.orange {color: rgb(222, 106, 15);}
+.orange-hover:hover {color: rgb(222, 106, 15);}
+
+.c {text-align: center;}
+.left-pad {padding-left: 15px;}
+.right-pad {padding-right: 15px;}
+.no-mar {margin: 0;}
+.va {vertical-align: middle;}
+.link {cursor: pointer;}
+
+.w3-bar-item:hover {font-weight: bold;}
+
+.un {
+	border-bottom: 1px solid;
+	padding-bottom: 1px;
+}
+
+.middle {
+	margin-top: 10px;
+	margin-bottom: 2px;
+}
+
+.cart {
+	background-color: rgb(255, 70, 0);
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	padding-left: 4px;
+	padding-right: 4px;
+	border-radius: 50%;
+	vertical-align: bottom;
+}
+
+.ad {
+	border: 1.5px solid;
+	border-color: rgb(110, 110, 110);
+	background-color: rgb(205, 205, 205);
+	color: rgb(110, 110, 110);
+	height: 100px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.close {
+	cursor: pointer;
+	position: absolute;
+	top: 12px;
+	right: 10px;
+}
+
+.sec {
+	border: 2px solid;
+	border-color: rgb(110, 110, 110);
+	margin-left: 15px;
+	margin-right: 15px;
+	text-align: center;
+}
+
+.sort {
+	border: 1.5px solid;
+	border-color: rgb(29, 103, 221);
+	border-radius: 20px;
+	color:rgb(110, 110, 110);
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	cursor: pointer;
+}
+
+.name {margin-bottom: 0;}
+
+.price {
+	margin-top: 0;
+	float: right;
+	color: black;
+}
+
+.nav {
+	border-right: 1px solid;
+	border-color: rgb(110, 110, 110);
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.toggle {
+	float: right;
+	color: black;
+	margin-top: 5px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.arrow {
+	color: black;
+	font-size: 20px;
+	margin-left: 35px;
+	margin-right: 35px;
+	cursor: pointer;
+}
+
+.dot {
+	display: inline-block;
+	background-color: rgb(205, 205, 205);
+	height: 12px;
+	width: 12px;
+	padding: 0;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.activedot {
+	background-color: rgb(29, 103, 221)!important;
+
+}

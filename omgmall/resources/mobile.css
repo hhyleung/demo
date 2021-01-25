@@ -1,0 +1,137 @@
+body, h1, h2, h3, h4, h4, h5, h6 {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300;
+}
+
+h4{color: white;}
+h6, p {color: black;}
+hr {
+	border-color: rgb(110, 110, 110);
+	margin-top: 0;
+	margin-bottom: 3px;
+}
+
+.mySlides {display:none}
+
+.blue {background-color: rgb(29, 103, 221);}
+.blue-text {color: rgb(29, 103, 221);}
+.grey {color: rgb(110, 110, 110);}
+.orange {color: rgb(222, 106, 15);}
+
+.c {text-align: center;}
+.no-mar {margin: 0;}
+
+.un {
+	border-bottom: 1px solid;
+	padding-bottom: 1px;
+}
+
+.cart {
+	background-color: rgb(255, 70, 0);
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	padding-left: 4px;
+	padding-right: 4px;
+	border-radius: 50%;
+	vertical-align: bottom;
+}
+
+.ad {
+	border: 1.5px solid;
+	border-color: rgb(110, 110, 110);
+	background-color: rgb(205, 205, 205);
+	color: rgb(110, 110, 110);
+	height: 100px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.sec {
+	background-color: rgb(220, 235, 255);
+	text-align: center;
+	padding: 3px;
+	margin: 15px;
+	width: 92%;
+}
+
+.overlay{
+	display: none;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	top: 0;
+	position: fixed;
+	z-index: 2;
+}
+
+.nav {
+	height: 100%;
+	width: 65%;
+	background-color: rgba(255, 255, 255, 0.95);
+	top: 0;
+	position: fixed;
+	z-index: 3;
+	overflow: auto;
+}
+
+.title {
+	background-color: rgba(220, 235, 255, 0.95);
+	margin: 0;
+	margin-top: 3px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.item{
+	margin: 0;
+	margin-left: 15px;
+	margin-right: 3px;
+}
+
+.toggle {
+	float: right;
+	margin-top: 3px;
+	margin-right: 10px;
+}
+
+.cat {
+	height: 40%;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.95);
+	bottom: 0;
+	position: fixed;
+	z-index: 3;
+	overflow: auto;
+}
+
+.confirm {
+	background-color: rgba(35, 70, 150, 0.95);
+	color: white;
+	text-align: center;
+	width: 100%;
+	bottom: 0;
+	position: fixed;
+	margin-bottom: 0;
+}
+
+.dot {
+	display: inline-block;
+	background-color: rgb(205, 205, 205);
+	height: 12px;
+	width: 12px;
+	padding: 0;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.activedot {
+	background-color: rgb(29, 103, 221)!important;
+
+}

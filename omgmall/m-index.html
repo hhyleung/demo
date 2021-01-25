@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+	<link rel="stylesheet" href="resources/styles.css">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="resources/imageMapResizer.min.js"></script>
+	<script src="resources/form-submission-handler.js"></script>
+
+	<title>OMG Mall Hong Kong</title>
+	<meta name="description" content="OMG Mall, an upcoming Online-to-Offline platform.">
+
+	<script>
+		if (screen.width > 860) window.location.replace("https://www.omgmall.com")
+	</script>
+</head>
+
+<body>
+	<div class="w3-container w3-center">
+		<img src="images/m-layout.png" usemap="#mobile-map" width="100%">
+
+		<map name="mobile-map">
+			<area href="#" onclick="document.getElementById('online').style.display='block'" alt="線上超市、線下提貨" shape="rect" coords="85,1455,548,1619">
+			<area href="#" onclick="document.getElementById('online').style.display='block'" alt="線上超市、線下提貨" shape="poly" coords="203,1128,521,945,620,1002,622,1041,709,1092,697,1105,430,1266">
+			<area href="#" onclick="document.getElementById('grocery').style.display='block'" alt="便利店" shape="rect" coords="85,1639,548,1801">
+			<area href="#" onclick="document.getElementById('grocery').style.display='block'" alt="便利店" shape="poly" coords="532,782,536,675,600,638,846,788,749,848,747,1066,721,1079,630,1027,630,987,532,929">
+			<area href="#" onclick="document.getElementById('brand').style.display='block'" alt="品牌專櫃" shape="rect" coords="85,1819,549,1983">
+			<area href="#" onclick="document.getElementById('brand').style.display='block'" alt="品牌專櫃" shape="poly" coords="141,821,427,659,504,704,504,923,219,1086,186,1068,184,1007,191,947,203,896,196,882,141,886">
+			<area href="#" onclick="document.getElementById('offline').style.display='block'" alt="電子服務" shape="rect" coords="644,1454,1109,1619">
+			<area href="#" onclick="document.getElementById('offline').style.display='block'" alt="電子服務" shape="poly" coords="140,885,197,882,203,896,191,947,184,1005,186,1068,193,1072,159,1099,110,1066,118,1060,121,994,128,936">
+			<area href="#" onclick="document.getElementById('catering').style.display='block'" alt="健康主題餐飲" shape="rect" coords="646,1639,1109,1803">
+			<area href="#" onclick="document.getElementById('catering').style.display='block'" alt="健康主題餐飲" shape="poly" coords="458,1280,762,1095,763,876,864,818,1092,954,1091,1202,704,1424,613,1372,594,1376,570,1373,564,1367,569,1360,569,1355,562,1349,563,1342">
+			<area href="#" onclick="document.getElementById('contact').style.display='block'" alt="聯絡我們" shape="rect" coords="645,1819,1109,1983">
+			<area href="m-home.html" alt="網店測試" shape="rect" coords="370,2003,824,2115">
+		</map>
+	</div>
+
+	<!-- Online -->
+	<div class="lightbox" id="online">
+		<div class="lightbox-content w3-animate-opacity">
+			<div class="w3-container w3-display-container">
+				<span onclick="document.getElementById('online').style.display='none'" class="close"><img src="images/close.png" width="35"></span>
+			</div>
+			<div class="w3-container w3-content">
+				<h2>OMG 線上超市</h2>
+				<div class="w3-center">
+					<span class="line"><img src="images/online-1.png" class="online"></span>
+					<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+					<span class="line"><img src="images/online-2.png" class="online"></span>
+					<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+					<span class="line"><img src="images/online-3.png" class="online"></span>
+				</div>
+			</div>
+
+			<div class="w3-container w3-content w3-center">
+				<h3>
+					<span class="line">&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;</span>
+					<span class="line">線上消費 <img src="images/arrows.png" class="arrows">線下實體店提貨</span>
+					<span class="line">&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;</span>
+				</h3>
+			</div>
+
+			<div class="w3-container w3-content">
+				<h2>OMG 線下提貨</h2>
+				<div class="w3-center">
+					<span class="line"><img src="images/online-4.png" class="online"></span>
+					<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+					<span class="line"><img src="images/online-5.png" class="online"></span>
+				</div>
+				<br>
+			</div>
+		</div>
+	</div>
+
+	<!-- Grocery -->
+	<div class="lightbox" id="grocery">
+		<div class="lightbox-content w3-animate-opacity">
+			<div class="w3-container w3-display-container">
+				<span onclick="document.getElementById('grocery').style.display='none'" class="close"><img src="images/close.png" width="35"></span>
+			</div>
+			<div class="w3-container w3-content">
+				<h1>OMG 便利店</h1>
+
+				<div class="w3-center">
+					<img src="images/grocery-1.png" class="grocery">
+				</div>
+
+				<div class="w3-center">
+					<img src="images/grocery-2.png" class="grocery-mobile"><br class="br"><br class="br">
+					<img src="images/grocery-3.png" class="grocery-mobile"><br class="br"><br class="br">
+					<img src="images/grocery-4.png" class="grocery-mobile">
+				</div>
+				<br>
+			</div>
+		</div>
+	</div>
+
+	<!-- Brand -->
+	<div class="lightbox" id="brand">
+		<div class="lightbox-content w3-animate-opacity">
+			<div class="w3-container w3-display-container">
+				<span onclick="document.getElementById('brand').style.display='none'" class="close"><img src="images/close.png" width="35"></span>
+			</div>
+			<div class="w3-container w3-content">
+				<h1>品牌專櫃</h1>
+
+				<div class="w3-center">
+					<img src="images/brand-1.png" class="grocery">
+				</div>
+
+				<div class="w3-center">
+					<img src="images/brand-2.png" class="brand-mobile"><br class="br"><br class="br">
+					<img src="images/brand-3.png" class="brand-mobile"><br class="br"><br class="br">
+					<img src="images/brand-4.png" class="brand-mobile"><br class="br"><br class="br">
+					<img src="images/brand-5.png" class="brand-mobile"><br class="br"><br class="br">
+					<img src="images/brand-6.png" class="brand-mobile">
+				</div>
+				<br>
+			</div>
+		</div>
+	</div>
+
+	<!-- Offline -->
+	<div class="lightbox" id="offline">
+		<div class="lightbox-content w3-animate-opacity">
+			<div class="w3-container w3-display-container">
+				<span onclick="document.getElementById('offline').style.display='none'" class="close"><img src="images/close.png" width="35"></span>
+			</div>
+			<div class="w3-container w3-content">
+				<h1>電子服務</h1>
+
+				<div class="w3-center">
+					<span class="line"><img src="images/offline-1.png" class="offline"></span>
+					<span class="line">&nbsp;</span>
+					<span class="line"><img src="images/offline-2.png" class="online"></span>
+					<span class="line">&nbsp;</span>
+					<span class="line"><img src="images/offline-3.png" class="tablet"></span><br><br>
+				</div>
+
+				<div class="w3-center">
+					<span class="line"><img src="images/offline-4.png" class="tickets"></span>
+					<span class="line">&nbsp;</span>
+					<span class="line"><img src="images/offline-5.png" class="dotted"></span>
+					<span class="line"><img src="images/offline-6.png" class="tickets"></span>
+				</div>
+				<br>
+			</div>
+		</div>
+	</div>
+
+	<!-- Catering -->
+	<div class="lightbox" id="catering">
+		<div class="lightbox-content w3-animate-opacity">
+			<div class="w3-container w3-display-container">
+				<span onclick="document.getElementById('catering').style.display='none'" class="close"><img src="images/close.png" width="35"></span>
+			</div>
+			<div class="w3-container w3-content">
+				<h1>健康主題餐飲</h1>
+
+				<div class="w3-center">
+					<span class="line"><img src="images/catering-1.png" class="catering"></span>
+					<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+					<span class="line"><img src="images/catering-2.png" class="drinks"></span>
+				</div>
+				<br>
+			</div>
+		</div>
+	</div>
+
+	<!-- Contact -->
+	<div class="lightbox" id="contact">
+		<div class="lightbox-content w3-animate-opacity">
+			<div class="w3-container w3-display-container">
+				<span onclick="document.getElementById('contact').style.display='none'" class="close"><img src="images/close.png" width="35"></span>
+			</div>
+			<div class="w3-container w3-content">
+				<h1>聯絡我們</h1>
+
+				<h4>如有興趣申請成為加盟者或與OMG合作，請填寫並提交以下表格：</h4>
+
+				<form method="POST" id="gform" action="https://script.google.com/macros/s/AKfycbzGBmeGTFsH_UDR3OAyOLhDhkUu0aQgR8QY0dtNYjr4vR_gtSA/exec">
+					<p><input class="input" type="text" name="name" placeholder="姓名 / Name" required></p>
+					<p><input class="input" type="text" name="phone" placeholder="電話 / Phone no." required></p>
+					<p><input class="input" type="email" name="email" placeholder="電郵 / E-mail" required></p>
+					<p><textarea class="input" name="message" rows="7" placeholder="信息 / Message" required></textarea></p>
+					<p><input class="submit" type="submit" value="提交"></p>
+				</form>
+				<br>
+			</div>
+		</div>
+	</div>
+
+	<!-- Thanks -->
+	<div class="lightbox" id="thanks">
+		<div class="lightbox-content">
+			<div class="w3-container w3-display-container">
+				<span onclick="document.getElementById('thanks').style.display='none'" class="close"><img src="images/close.png" width="35"></span>
+			</div>
+			<div class="w3-container w3-content">
+				<h1>表格已提交！</h1>
+				<h1>Form has been submitted!</h1>
+				<br>
+				<h4>謝謝，我們會盡快聯絡您。</h4>
+				<h4>Thank you, we will get back to you soon.</h4>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		imageMapResize();
+	</script>
+</body>
+</html>

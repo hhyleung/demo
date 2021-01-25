@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="resources/store.css">
+	<title>零食 甜品</title>
+
+	<script>
+		if (screen.width <= 950) window.location.replace("https://www.omgmall.com/m-store.html")
+	</script>
+</head>
+	
+<body>
+	<header>
+		<div class="w3-container c blue">
+			<h3><b>復活節大減價：大量貨品 七五折</b></h3>
+		</div>
+		<div>
+			<div class="w3-cell w3-cell-middle" style="width:10%">
+				<img src="store/logo.png" width="100%">
+			</div>
+			<div class="w3-cell">
+				<div class="w3-cell-row">
+					<div class="w3-cell">
+						<h6 class="no-mar">
+							<span class="link"><i class="fa fa-question fa-lg"></i>&nbsp;常見問題</span>&nbsp;&nbsp;&nbsp;&nbsp;
+							<span class="link"><i class="fa fa-map-marker fa-lg"></i>&nbsp;實體店地址</span>
+						</h6>
+					</div>
+					<div class="w3-cell right-pad">
+						<p class="no-mar" style="text-align:right">
+							<span class="link un">English</span>&nbsp;&nbsp;|&nbsp;
+							<span class="link un">中文</span>
+						</p>
+					</div>
+				</div>
+				<div class="right-pad">
+					<h6 class="middle" style="text-align:right">
+						<i class="fa fa-search fa-lg"></i>
+						<div class="w3-dropdown-hover">
+							&nbsp;藥粧護理&nbsp;<i class="fa fa-caret-down fa-lg va"></i>
+							<div class="w3-dropdown-content w3-bar-block">
+								<span class="link w3-bar-item">食物飲品</span>
+								<span class="link w3-bar-item"><b>藥粧護理</b></span>
+								<span class="link w3-bar-item">家居雜貨</span>
+								<span class="link w3-bar-item">電子用品</span>
+								<span class="link w3-bar-item">時尚衣物</span>
+							</div>
+						</div>
+						&nbsp;|&nbsp;<input class="input" type="search" placeholder="搜尋">
+						&nbsp;|&nbsp;港幣&nbsp;<img src="store/flag.png" height="20px">
+						&nbsp;&nbsp;&nbsp;
+						<i class="fa fa-user-circle-o fa-2x va link"></i>
+						&nbsp;&nbsp;&nbsp;
+						<span class="link"><i class="fa fa-shopping-cart fa-2x va"></i>&nbsp;<span class="cart">3</span></span>
+					</h6>
+					<hr/>
+				</div>
+				<div class="left-pad">
+					<h6 class="no-mar">
+						<span class="link un">VIP會員登記</span>&nbsp;&nbsp;&nbsp;&nbsp;
+						<span class="link un">商店加盟</span>
+					</h6>
+				</div>
+			</div>
+		</div>
+		<div class="w3-cell-row">
+			<div class="w3-cell c">
+				<h4 class="grey">
+					<span class="link orange-hover">今期優惠</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+					<span class="orange">食物飲品</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+					<span class="link orange-hover">藥粧護理</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+					<span class="link orange-hover">家居雜貨</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+					<span class="link orange-hover">電子用品</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+					<span class="link orange-hover">時尚衣物</span>
+				</h4>
+			</div>
+			<div class="w3-cell" style="max-width:300px">
+				<h4>
+					<span class="link">熱門產品</span>&nbsp;&nbsp;|&nbsp;
+					<span class="link">最新貨品</span>
+				</h4>
+			</div>
+		</div>
+	</header>
+
+	<div>
+		<h4 class="cs" onclick="document.getElementById('message').style.display='block'">在線支援</h4>
+	</div>
+
+	<div class="left-pad">
+		<p class="no-mar">
+			<a href="home.html"><i class="fa fa-home fa-lg"></i> 主頁</a>&nbsp;&nbsp;&nbsp;》
+			<span class="link">食物飲品</span>&nbsp;&nbsp;&nbsp;》
+			<span class="link">零食 甜品</span>
+		</p>
+	</div>
+
+	<div class="w3-container sec">
+		<h3 style="color:black">零食 甜品</h3>
+		<p>
+			熱賣產品：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<span class="link">韓國乳酪薯片</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<span class="link">新加坡金鴨鹹蛋炸魚皮</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<span class="link">雜莓黑朱古力脆脆</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<span class="link">UCC114 即溶咖啡</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<span class="link">TIRAMI白桃啫喱</span>
+		</p>
+	</div>
+
+	<div class="w3-cell-row left-pad right-pad" style="padding-top:20px">
+		<div class="w3-cell nav" style="width:18%;">
+			<h3 class="blue-text"><b><a onclick="myAccFunc()" href="javascript:void(0)" id="cat">產品分類<i class="fa fa-toggle-down toggle"></i></b></a></h3>
+			<div id="item" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+				<p class="w3-bar-item no-mar link">糧油雜貨</p>
+				<p class="w3-bar-item no-mar link">飲品</p>
+				<p class="w3-bar-item no-mar"><b>零食 甜品</b></p>
+			</div>
+			<hr/>
+			<h3 class="blue-text"><b class="link">產地</b><i class="fa fa-toggle-down toggle"></i></h3>
+			<hr/>
+			<h3 class="blue-text"><b class="link">品牌</b><i class="fa fa-toggle-down toggle"></i></h3>
+			<hr/>
+			<h3 class="blue-text"><b>價錢</b></h3>
+			<center>
+				<input type="range" min="0" max="1000" value="100" oninput="outputUpdate(value)" id="price">
+				$&nbsp;<output for="fader" id="value">100</output>
+			</center>
+			<hr/>
+		</div>
+		<div class="w3-cell" style="width:2%"></div>
+		<div class="w3-cell">
+			<div style="width:100%">
+				<h6 style="text-align:right">
+					<img src="store/display.png" class="link" width="120px" style="float:left">
+					<div class="w3-dropdown-hover">
+						<span class="sort"><b>排序：<span class="blue-text">OMG之選</span></b>&nbsp;<i class="fa fa-chevron-down"></i></span>
+						<div class="w3-dropdown-content w3-bar-block">
+							<span class="link w3-bar-item">價格：低至高</span>
+							<span class="link w3-bar-item">價格：高至低</span>
+							<span class="link w3-bar-item">熱銷產品</span>
+							<span class="link w3-bar-item">上傳時間</span>
+						</div>
+					</div>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="un">680 件商品</span>
+				</h6>
+			</div>
+			<div style="padding:10px"></div>
+			<div class="w3-cell-row">
+				<div class="w3-cell" style="width:8%"></div>
+				<div class="w3-cell">
+					<div class="w3-card-4 link"><img src="store/product-1.png" width="100%"></div>
+					<p class="name">森永 - Hi-Chew嚴選特產4味軟糖</p>
+					<h4 class="price">$ 20.00&nbsp;&nbsp;<i class="fa fa-cart-plus fa-2x link"></i></h4>
+				</div>
+				<div class="w3-cell" style="width:8%"></div>
+				<div class="w3-cell">
+					<div class="w3-card-4"><img src="store/product-2.png" width="100%"></div>
+					<p class="name">北海道白之戀人曲奇 - 朱古力曲奇</p>
+					<h4 class="price">$ 120.00&nbsp;&nbsp;<i class="fa fa-cart-plus fa-2x link"></i></h4>
+				</div>
+				<div class="w3-cell" style="width:8%"></div>
+				<div class="w3-cell">
+					<div class="w3-card-4"><img src="store/product-3.png" width="100%"></div>
+					<p class="name">St Michel - 原味鮮蛋糕</p>
+					<h4 class="price">$ 20.00&nbsp;&nbsp;<i class="fa fa-cart-plus fa-2x link"></i></h4>
+				</div>
+				<div class="w3-cell" style="width:8%"></div>
+			</div>
+			<div style="padding:30px"></div>
+			<div class="w3-cell-row">
+				<div class="w3-cell" style="width:8%"></div>
+				<div class="w3-cell">
+					<div class="w3-card-4 link"><img src="store/product-4.png" width="100%"></div>
+					<p class="name">珍珍 - 薯片 - 龍蝦湯味</p>
+					<h4 class="price">$ 14.90&nbsp;&nbsp;<i class="fa fa-cart-plus fa-2x link"></i></h4>
+				</div>
+				<div class="w3-cell" style="width:8%"></div>
+				<div class="w3-cell">
+					<div class="w3-card-4"><img src="store/product-5.png" width="100%"></div>
+					<p class="name">星球工坊 - 爆谷 (焦糖脆脆味)</p>
+					<h4 class="price">$ 43.00&nbsp;&nbsp;<i class="fa fa-cart-plus fa-2x link"></i></h4>
+				</div>
+				<div class="w3-cell" style="width:8%"></div>
+				<div class="w3-cell">
+					<div class="w3-card-4"><img src="store/product-6.png" width="100%"></div>
+					<p class="name">珍珍 - 薯片 - 蒲燒鰻魚味</p>
+					<h4 class="price">$ 9.50&nbsp;&nbsp;<i class="fa fa-cart-plus fa-2x link"></i></h4>
+				</div>
+				<div class="w3-cell" style="width:8%"></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="w3-cell-row" style="padding-top:50px">
+		<div class="w3-cell ad">
+			<h2>廣告位</h2>
+		</div>
+		<div class="w3-cell" style="width:0.2%"></div>
+		<div class="w3-cell ad">
+			<h2>廣告位</h2>
+		</div>
+	</div>
+
+	<div class="message" id="message">
+		<header class="blue" style="height:50px">
+			<div class="w3-container w3-display-container">
+				<span onclick="document.getElementById('message').style.display='none'" class="close"><img src="store/close.png" width="25"></span>
+			</div>
+			<h4 class="va left-pad" style="color:white">在線支援</h4>
+		</header>
+		<div>
+			<input class="input message-input" type="text" placeholder="輸入您的訊息">
+		</div>
+	</div>
+
+	<footer class="w3-cell-row" style="padding-top:20px">
+		<div class="w3-cell" style="width:4%"></div>
+		<div class="w3-cell">
+			<h6 class="blue-text no-mar"><span class="link un">關於我們</span></h6>
+			<p class="grey no-mar">
+				<span class="link">公司資料</span><br/>
+				<span class="link">商店加盟</span><br/>
+				<span class="link">聯絡我們</span><br/>
+				<span class="link">使用條款</span>
+			</p>
+		</div>
+		<div class="w3-cell">
+			<h6 class="blue-text no-mar"><span class="link un">送貨政策</span></h6>
+			<p class="grey no-mar">
+				<span class="link">訂單追蹤</span><br/>
+				<span class="link">關於退貨</span><br/>
+				<span class="link">電子收據</span>
+			</p>
+		</div>
+		<div class="w3-cell w3-cell-middle right-pad" style="text-align:right">
+			<h6 class="blue-text" style="padding-right:102px">
+				關注我們：<img src="store\social.png" class="link" width="150px">
+			</h6>
+			<h6 class="blue-text">
+				下載 OMG 手機 APP：
+				<img src="store\app-store.png" class="link" width="120px">&nbsp;
+				<img src="store\play-store.png" class="link" width="120px">
+			</h6>
+		</div>
+	</footer>
+
+	<script>
+		function myAccFunc() {
+			var x = document.getElementById("item");
+			if (x.className.indexOf("w3-show") == -1) {
+				x.className += " w3-show";
+			} else {
+				x.className = x.className.replace(" w3-show", "");
+			}
+		}
+
+		document.getElementById("cat").click();
+
+		function outputUpdate(vol) {
+			document.querySelector('#value').value = vol;
+		}
+	</script>
+
+</body>
+</html>
+

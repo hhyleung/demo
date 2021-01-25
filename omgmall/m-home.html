@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="resources/mobile.css">
+	<title>OMG Mall</title>
+
+	<script>
+		if (screen.width > 950) window.location.replace("https://www.omgmall.com/home.html")
+	</script>
+</head>
+	
+<body>
+	<header>
+		<div class="w3-container c blue">
+			<h4><b>復活節大減價：大量貨品 七五折</b></h4>
+		</div>
+		<div>
+			<div class="w3-cell w3-cell-middle" style="width:25%">
+				&nbsp;&nbsp;<i class="fa fa-list-ul fa-2x" onclick="document.getElementById('nav').style.display='block';document.getElementById('overlay').style.display='block'"></i>&nbsp;&nbsp;
+				<i class="fa fa-search fa-2x"></i>
+			</div>
+			<div class="w3-cell w3-cell-middle" style="width:40%">
+				<p class="c no-mar"><img src="store/logo.png" width="50%"></p>
+			</div>
+			<div class="w3-cell w3-cell-middle" style="width:35%">
+				<div style="text-align:right">
+					&nbsp;&nbsp;<i class="fa fa-user-circle-o fa-2x" onclick="document.getElementById('acc').style.display='block';document.getElementById('overlay').style.display='block'"></i>&nbsp;&nbsp;
+					<i class="fa fa-shopping-cart fa-2x"></i>&nbsp;<span class="cart">3</span>&nbsp;&nbsp;
+				</div>
+				<div>
+					<p class="no-mar" style="text-align:right">
+						<span class="un">English</span>&nbsp;&nbsp;|&nbsp;
+						<span class="un">中文</span>&nbsp;&nbsp;
+					</p>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="overlay" id="overlay" onclick="document.getElementById('overlay').style.display='none';document.getElementById('nav').style.display='none';document.getElementById('acc').style.display='none'"></div>
+
+	<div class="nav" style="display:none" id="nav">
+		<h6 class="title">實體店地址</h6>
+		<h6 class="title">產品分類</h6>
+		<p class="orange no-mar" style="margin-left:3px;">今期優惠</p><hr/>
+		<p class="item">食物飲品<i class="fa fa-toggle-down toggle"></i></p><hr/>
+		<p class="item">藥粧護理<i class="fa fa-toggle-down toggle"></i></p><hr/>
+		<p class="item">家居雜貨<i class="fa fa-toggle-down toggle"></i></p><hr/>
+		<p class="item">電子用品<i class="fa fa-toggle-down toggle"></i></p><hr/>
+		<p class="item">時尚衣物<i class="fa fa-toggle-down toggle"></i></p><hr/>
+		<p class="item">熱門產品</p><hr/>
+		<p class="item">最新貨品</p>
+		<h6 class="title">關於我們及OMG資訊</h6>
+		<p class="item">送貨政策</p><hr/>
+		<p class="item">聯絡查詢</p><hr/>
+		<p class="item">VIP會員登記</p><hr/>
+		<p class="item">商店加盟</p>
+		<h6 class="title">關注我們</h6>
+		<p class="no-mar">&nbsp;&nbsp;<img src="store\social.png" width="40%"></p>
+	</div>
+
+	<div class="nav" style="display:none; right:0" id="acc">
+		<h6 class="title" style="text-align:right">登入/註冊</h6>
+		<p class="item" style="text-align:right">我的帳戶</p><hr/>
+		<p class="item" style="text-align:right">我的訂單</p><hr/>
+		<p class="item" style="text-align:right">訂單追蹤</p><hr/>
+	</div>
+
+	<div class="w3-display-container">
+		<img class="mySlides" src="mobile/slider-1.png" onclick="window.location.replace('https://www.omgmall.com/m-store.html')" width="100%">
+		<img class="mySlides" src="mobile/slider-2.png" onclick="window.location.replace('https://www.omgmall.com/m-store.html')" width="100%">
+		<img class="mySlides" src="mobile/slider-3.png" onclick="window.location.replace('https://www.omgmall.com/m-store.html')" width="100%">
+		<div class="c w3-display-bottommiddle" style="width:100%">
+			<span class="dot" onclick="currentDiv(1)"></span>
+			<span class="dot" onclick="currentDiv(2)"></span>
+			<span class="dot" onclick="currentDiv(3)"></span>
+		</div>
+	</div>
+
+	<div class="w3-cell-row" style="padding-top:3px">
+		<div class="w3-cell ad" style="width:55%">
+			<h3>廣告位</h3>
+		</div>
+		<div class="w3-cell" style="width:0.5%"></div>
+		<div class="w3-cell ad">
+			<h3>廣告位</h3>
+		</div>
+	</div>
+
+	<div style="padding:3px">
+		<img src="mobile/banner.png" width="100%">
+	</div>
+
+	<div style="padding-top:3px">
+		<h4 class="c" style="color:rgb(0, 100, 195)"><b>#OMGSTYLE</b></h4>
+		<div class="w3-cell-row">
+			<div class="w3-cell w3-cell-middle c" style="width:10%">
+				<i class="fa fa-chevron-left fa-lg grey"></i>
+			</div>
+			<div class="w3-cell">
+				<div class="w3-cell-row">
+					<div class="w3-cell">
+						<div class="w3-card-4"><img src="store/product-1.png" width="100%"></div>
+						<p class="c"><small>Hi-Chew嚴選特產4味<br/>$ 20.00</small></p>
+					</div>
+					<div class="w3-cell" style="width:15%"></div>
+					<div class="w3-cell">
+						<div class="w3-card-4"><img src="store/product-2.png" width="100%"></div>
+						<p class="c"><small>北海道白之戀人曲奇<br/>$ 120.00</small></p>
+					</div>
+				</div>
+				<div class="w3-cell-row">
+					<div class="w3-cell">
+						<div class="w3-card-4"><img src="store/product-3.png" width="100%"></div>
+						<p class="c"><small>St Michel - 原味鮮蛋糕<br/>$ 20.00</small></p>
+					</div>
+					<div class="w3-cell" style="width:15%"></div>
+					<div class="w3-cell">
+						<div class="w3-card-4"><img src="store/product-4.png" width="100%"></div>
+						<p class="c"><small>珍珍 - 龍蝦湯薯片<br/>$ 14.90</small></p>
+					</div>
+				</div>
+			</div>
+			<div class="w3-cell w3-cell-middle c" style="width:10%">
+				<i class="fa fa-chevron-right fa-lg grey"></i>
+			</div>
+		</div>
+	</div>
+
+	<div>
+		<div class="w3-cell-row">
+			<div class="w3-cell" style="width:11%"></div>
+			<div class="w3-cell" style="width:26%">
+				<p class="c no-mar"><img src="mobile/truck.png" height="40px"></p>
+				<h6 class="gery c no-mar">送貨政策</h6>
+			</div>
+			<div class="w3-cell" style="width:26%">
+				<p class="c no-mar"><img src="mobile/about.png" height="40px"></p>
+				<h6 class="gery c no-mar">關於我們</h6>
+			</div>
+			<div class="w3-cell" style="width:26%">
+				<p class="c no-mar"><img src="mobile/location.png" height="40px"></p>
+				<h6 class="gery c no-mar">店鋪地點</h6>
+			</div>
+			<div class="w3-cell" style="width:11%"></div>
+		</div>
+		<div style="padding:5px"></div>
+		<div class="w3-cell-row">
+			<div class="w3-cell" style="width:11%"></div>
+			<div class="w3-cell" style="width:26%">
+				<p class="c no-mar"><img src="mobile/vip.png" height="40px"></p>
+				<h6 class="gery c no-mar">VIP會員登記</h6>
+			</div>
+			<div class="w3-cell" style="width:26%">
+				<p class="c no-mar"><img src="mobile/bag.png" height="40px"></p>
+				<h6 class="gery c no-mar">馬上選購</h6>
+			</div>
+			<div class="w3-cell" style="width:26%">
+				<p class="c no-mar"><img src="mobile/contact.png" height="40px"></p>
+				<h6 class="gery c no-mar">聯絡查詢</h6>
+			</div>
+			<div class="w3-cell" style="width:11%"></div>
+		</div>
+	</div>
+
+	<footer class="w3-cell-row" style="padding-top:20px">
+		<div class="w3-cell" style="width:40%">
+			<h6 class="blue-text c no-mar">OMG 社交媒體：</h6>
+			<p class="c no-mar"><img src="store\social.png" width="85%"></p>
+		</div>
+		<div class="w3-cell" style="width:60%">
+			<h6 class="blue-text c no-mar">下載 OMG 手機 APP：</h6>
+			<p class="c no-mar"><img src="store\app-store.png" width="45%">
+			<img src="store\play-store.png" width="45%"></p>
+		</div>
+	</footer>
+
+	<script>
+		var slideIndex = 1;
+		showDivs(slideIndex);
+
+		function plusDivs(n) {
+			showDivs(slideIndex += n);
+		}
+
+		function currentDiv(n) {
+			showDivs(slideIndex = n);
+		}
+
+		function showDivs(n) {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			var dots = document.getElementsByClassName("dot");
+			if (n > x.length) {slideIndex = 1}    
+			if (n < 1) {slideIndex = x.length}
+			for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";  
+			}
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" activedot", "");
+			}
+			x[slideIndex-1].style.display = "block";  
+			dots[slideIndex-1].className += " activedot";
+		}
+	</script>
+</body>
+</html>
